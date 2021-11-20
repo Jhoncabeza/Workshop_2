@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Carrito from './Carrito/Carrito';
 import Detalle from './DetalleProducto/Detalle';
-import Formulario from './Formulario/Formulario';
+
 import Home from './Home/Home';
 
 
@@ -25,7 +26,7 @@ function App() {
         <Routes>
           <Route exact path="/"            element = {<Home category={producto} />} />
           <Route exact path="/Detalle/:id" element = {<Detalle detail={producto} />} />
-          <Route exact path="/Carrito"     element = {<Formulario />} />
+          <Route exact path="/Carrito"     element = {<Carrito />} />
         </Routes>
       </Router>
     </div>

@@ -82,6 +82,7 @@ export const ButtonCards = styled.button`
     background-color:#630A10;
     color: white;
     font-size: 20px;
+
 `
 
 export const LinkCard = styled(Link)`
@@ -95,3 +96,27 @@ export const DivDetalles = styled.div`
     justify-content: center;
 `
 
+//tabla carrito
+
+export const TablaCarrito = styled.table`
+    width: 100%;
+`
+export const DivTablaCarrito = styled.div`
+    background-color: #630A10;
+    border-radius: 20px;
+    color: white;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+`
+
+export const TrCarrito = styled.tr`
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+`
+
+export const H1Titulo = styled.h1`
+    text-align: center;
+    color: #630A10;
+`
